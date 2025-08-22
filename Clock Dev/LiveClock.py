@@ -7,7 +7,7 @@ app.geometry("300x100")
 app.resizable(True, True)  
 app.configure(bg="black")  
 
-clock_label = Label(app, bg="black", fg="white", font=("Helvetica", 40), relief='flat')  
+clock_label = Label(app, bg="black", fg="white", font=("Abril Fatface", 40), relief='flat')  
 clock_label.place(x=20, y=20)
 
 def update_time():
